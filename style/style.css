@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+  
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1635%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1636)'%3e%3c/rect%3e%3cg mask='url(%26quot%3b%23SvgjsMask1638%26quot%3b)'%3e%3cpath d='M940 420L980 460L1020 460M340 300L380 260L420 260M900 420L940 460L980 500L1020 500M420 300L460 340L500 340L540 340L580 340M740 420L780 460M660 340L700 340L740 340L780 380L820 380M-20 300L20 300L60 300L100 300L140 300L180 300L220 300L260 300L300 300L340 300L380 300L420 300L460 300L500 300L540 300L580 300L620 300L660 340L700 380L740 420L780 420L820 420L860 420L900 420L940 420L980 420' stroke='url(%23SvgjsLinearGradient1637)' stroke-width='6.67'%3e%3c/path%3e%3cpath d='M970 420 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM1010 460 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM410 260 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM1010 500 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM570 340 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM770 460 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM810 380 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0z' fill='url(%23SvgjsLinearGradient1637)'%3e%3c/path%3e%3cpath d='M500 260L540 220L580 220L620 220M860 300L900 260L940 260M700 260L740 300M300 260L340 260M900 300L940 340L980 340M420 220L460 220L500 220M-20 260L20 260L60 260L100 260L140 260L180 260L220 260L260 260L300 260L340 220L380 220L420 220L460 260L500 260L540 260L580 260L620 260L660 260L700 260L740 260L780 300L820 300L860 300L900 300L940 300L980 300' stroke='url(%23SvgjsLinearGradient1637)' stroke-width='6.67'%3e%3c/path%3e%3cpath d='M970 300 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM610 220 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM930 260 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM730 300 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM330 260 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM970 340 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM490 220 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0z' fill='url(%23SvgjsLinearGradient1637)'%3e%3c/path%3e%3cpath d='M220 340L260 380M180 340L220 380M300 340L340 380L380 380L420 420L460 460M-20 340L20 340L60 340L100 340L140 340L180 340L220 340L260 340L300 340L340 340L380 340L420 380L460 380' stroke='url(%23SvgjsLinearGradient1637)' stroke-width='6.67'%3e%3c/path%3e%3cpath d='M450 380 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM250 380 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM210 380 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM450 460 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0z' fill='url(%23SvgjsLinearGradient1637)'%3e%3c/path%3e%3cpath d='M700 220L740 180L780 180L820 180M580 180L620 140L660 140L700 140M-20 220L20 220L60 220L100 220L140 220L180 220L220 220L260 220L300 220L340 180L380 180L420 180L460 180L500 180L540 180L580 180L620 180L660 180L700 220L740 220L780 220L820 260' stroke='url(%23SvgjsLinearGradient1637)' stroke-width='6.67'%3e%3c/path%3e%3cpath d='M810 260 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM810 180 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM690 140 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0z' fill='url(%23SvgjsLinearGradient1637)'%3e%3c/path%3e%3cpath d='M20 380L60 420M220 420L260 460L300 460M100 380L140 420M-20 380L20 380L60 380L100 380L140 380L180 420L220 420L260 420L300 420L340 420' stroke='url(%23SvgjsLinearGradient1637)' stroke-width='6.67'%3e%3c/path%3e%3cpath d='M330 420 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM50 420 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM290 460 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM130 420 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0z' fill='url(%23SvgjsLinearGradient1637)'%3e%3c/path%3e%3cpath d='M140 180L180 140M260 180L300 140L340 100L380 100M420 140L460 100L500 100L540 100L580 100M-20 180L20 180L60 180L100 180L140 180L180 180L220 180L260 180L300 180L340 140L380 140L420 140L460 140L500 140L540 140' stroke='url(%23SvgjsLinearGradient1637)' stroke-width='6.67'%3e%3c/path%3e%3cpath d='M530 140 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM170 140 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM370 100 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0zM570 100 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0z' fill='url(%23SvgjsLinearGradient1637)'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1635'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='100%25' x2='50%25' y2='0%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1636'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(2%2c 15%2c 31%2c 1)' offset='0.86'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='133.62624000000002' y1='693.616' x2='960.77376' y2='-133.616' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1637'%3e%3cstop stop-color='%233a7cc3' offset='0'%3e%3c/stop%3e%3cstop stop-color='%23dd1133' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cmask id='SvgjsMask1638'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3cpath d='M975 420 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM1015 460 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM415 260 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM1015 500 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM575 340 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM775 460 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM815 380 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0z' fill='black'%3e%3c/path%3e%3cpath d='M975 300 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM615 220 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM935 260 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM735 300 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM335 260 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM975 340 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM495 220 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0z' fill='black'%3e%3c/path%3e%3cpath d='M455 380 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM255 380 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM215 380 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM455 460 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0z' fill='black'%3e%3c/path%3e%3cpath d='M815 260 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM815 180 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM695 140 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0z' fill='black'%3e%3c/path%3e%3cpath d='M335 420 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM55 420 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM295 460 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM135 420 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0z' fill='black'%3e%3c/path%3e%3cpath d='M535 140 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM175 140 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM375 100 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0zM575 100 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0z' fill='black'%3e%3c/path%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  
+main {
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.project-img {
+    width: 80%;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 164px;
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 2px 2px 0 #1d27b4;
+}
+
+.parag {
+    color: white;
+    font-size: 32px;
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 2px 2px 0 #1a25be;
+}
+
+.button:hover {
+    color: rgb(93, 93, 235);
+}
+  
+.swiper {
+    height: 800px;
+    backdrop-filter: blur(9px) saturate(180%);
+    -webkit-backdrop-filter: blur(9px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.54);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow:  5px 5px 10px #0a0612,
+    -5px -5px 10px #0b0614;
+}
+
+  
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    position: fixed;
+    opacity: 0.5;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: all 0.4s ease;
+    text-decoration: none;
+    color: #f7f2f6;
+}
+
+a:hover {
+    opacity: 0.8;
+    font-size: 1.1rem;
+}
+
+.img-git{
+    height: 2rem;
+    width: 2rem;
+}
+  
+  @media (max-width: 450px) {
+    .swiper {
+      height: 270px;
+    }
+
+    .title {
+        font-size: 16px;
+        margin: 6px;
+
+    }
+
+    .parag {
+        font-size: 12px;
+    }
+  }
